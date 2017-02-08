@@ -1,0 +1,209 @@
+body {
+	font-family: 'Lato', sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #30B1F2;
+}
+
+a:hover {
+	color: #8BDCFC;
+}
+
+.spacer-left {
+	display: inline-block;
+	background-color: green;
+	height: 60px;
+	width: 10%
+}
+
+.spacer-right {
+	display: inline-block;
+	background-color: green;
+	height: 60px;
+	width: 10%;
+}
+
+.container {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav {
+	background-color: white;
+	height: 60px;
+	position: fixed;
+	width: 100%;
+	margin-top: -20px;
+	padding-top: 10px;
+	z-index: 1;
+}
+
+.nav-logo {
+	display: inline;
+	float: left;
+}
+
+.nav li {
+	display: inline;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+	float: right;
+}
+
+.nav a {
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+}
+
+.nav a:hover {
+	color: #30B1F2;
+}
+
+.art-splash {
+	background-image: url("../assets/splash.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 400px;
+	display: inline-block;
+	text-shadow: 2px 2px 3px black;
+}
+
+.art-splash h1 {	
+	margin-top: 120px;
+	margin-bottom: 0px;
+}
+
+.art-splash p {
+	font-weight: bold;
+	font-size: 1.4em;
+	margin: 5px 0px 5px 0px;
+}
+
+.art-splash h1 {
+	color: white;
+	font-size: 3em;
+}
+
+.art-splash p {
+	color: white;
+}
+
+.art-splash a {
+	font-weight: normal;
+}
+
+.art-splash a:hover {
+	color: white;
+}
+
+.art-guides {
+	padding-top: 10px;
+	background-color: #D2F0F4;
+}
+
+.art-guides h3{
+	font-size: 1.3em;
+	font-weight: regular;	
+}
+
+.guide-thumb {
+	height: 200px;
+	width: 250px;
+	background-color: gray;
+	display: inline-block;
+	margin: 10px 20px 40px 0px;
+	text-shadow: 1px 1px 3px black;
+}
+
+#guide-artist1 {
+	background-image: url("../assets/artist1.jpg");
+}
+
+#guide-artist2 {
+	background-image: url("../assets/artist2.jpg");
+}
+
+#guide-artist3 {
+	background-image: url("../assets/artist3.jpg");
+	margin-right: 0px;
+}
+
+#right-no-margin {
+	margin-right: 0px;
+}
+
+.guide-thumb h3 {
+	text-align: center;
+	margin-top: 140px;
+}
+
+.guide-thumb a {
+	color: white;
+}
+
+.guide-thumb a:hover {
+	color: #8BDCFC;
+}
+
+.learn-more {
+	background-color: white;
+}
+
+.learn-more-box {
+	width: 250px;
+	display: inline-block;
+	margin: 10px 20px 40px 0px;
+}
+
+.footer {
+	background-color: #5E5E5E;
+	height: 250px;
+}
+
+.footer-column {
+	display: inline-block;
+	color: white;
+	vertical-align:top;
+}
+
+#footer-column-left {
+	margin-left: 280px;
+}
+
+#footer-column-right {
+	margin-left: 100px;
+}
+
+.footer-column p {
+	margin: 0px;
+}
+
+.footer-column h3 {
+	font-size: 1em;
+	margin-top: 20px;
+	margin-bottom: 2px;
+}
+
+.footer-column a {
+	color: white;
+	font-size: .9em;
+}
+
+.footer-column a:hover {
+	color: #8BDCFC;
+}
+
+#copyright {
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+	color: #969696;
+	font-size: .9em;
+}
